@@ -55,8 +55,7 @@ namespace MouseMove
                     {
                         int YAchse = Cursor.Position.Y;
                         if (Cursor.Position.Y!=YAchse || Cursor.Position.Y > YAchse || Cursor.Position.Y < YAchse)
-                        {
-                               
+                        {                               
                             breaker = false;
                             s.Stop();
                             break;
